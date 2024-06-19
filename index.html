@@ -10,11 +10,27 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <link rel="shortcut icon" href="./assets/image/svg/jhaj.svg" type="image/x-icon">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
 <body>
+    <!-- <div class="loading-overlay" id="loadingOverlay">
+    <div class="loader gap-5 d-flex flex-column justify-content-center align-items-center w-100">
+        <img class="w-100  max-500" src="./assets/image/svg/jhaj.svg" alt="svg">
+        <div class="honeycomb">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </div> -->
+        
+    </div>
     <section>
         <nav class="bg-blue p-3">
             <div class="container">
@@ -205,6 +221,8 @@
                     </div>
                 </div>
             </div>
+            <img src="./assets/image/png/about-elii.png" alt="" class="position-absolute  start-0 bottom-0">
+            <img src="./assets/image/png/about-bottam.png" alt="" class="position-absolute  end-0 top-0">
 
         </div>
         <div class="position-absolute end-0 top-0 ">
@@ -215,53 +233,81 @@
         </div>
 
     </section>
-    <section class="bg-color">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="   d-flex">
-                        <img src="./assets/image/png/pinkey.png" alt="" class="">
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="d-flex">
-                        <div class="  d-flex ">
-                            <img src="./assets/image/png/bridge.png" alt="" class=" w-100">
+    <section class="position-relative py-5 bg-color ">
+        <div class="container position-relative z-2">
+            <h2 class="text-4 fs-48 text-center lh-sm">
+                Popular
+                Destinations</h2>
+            <div class="row m-0 pt-105">
+                <div class="col-lg-4 col-12 mt-24">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12  mt-lg-24">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">inthanon-park-chiang</p>
+                                </div>
+                                <img src="./assets/image/png/pinkey.png" alt="image27" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-12 mt-md-24  mt-lg-24 ">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">beautiful-viewpoint,surat</p>
+                                </div>
+                                <img src="./assets/image/png/sea.png" alt="image27" class="w-100">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex">
-                        <div class=" d-flex">
-                            <img src="./assets/image/png/temple.png" alt="" class=" w-100">
+                <div class="col-lg-4 col-12 mt-24">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">wooden-bridge,Surat</p>
+                                </div>
+                                <img src="./assets/image/png/bridge.png" alt="image27" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-12  mt-md-24   mt-lg-24 ">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">taj-mahal-agra,india</p>
+                                </div>
+                                <img src="./assets/image/png/taj.png" alt="image27" class="w-100 ">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex">
-                        <div class="  d-flex">
-                            <img src="./assets/image/png/sea.png" alt="" class=" w-100">
+                <div class="col-lg-4 col-12 mt-24">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-12  mt-lg-24">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">inthanon-park-chiang</p>
+                                </div>
+                                <img src="./assets/image/png/temple.png" alt="image27" class="w-100">
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="d-flex">
-                        <div class=" d-flex">
-                            <img src="./assets/image/png/taj.png" alt="" class=" w-100">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="d-flex">
-                        <div class=" d-flex ">
-                            <img src="./assets/image/png/hotel.png" alt="" class=" w-100">
+                        <div class="col-12 col-md-6 col-lg-12 mt-md-24  mt-lg-24 ">
+                            <div class="d-flex img-box overflow-hidden position-relative">
+                                <div class="blur-text position-absolute d-grid">
+                                    <p class="opacity-75 text-2 m-0">beautiful-viewpoint,surat</p>
+                                </div>
+                                <img src="./assets/image/png/hotel.png" alt="image27" class="w-100 ">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
+        </div>
+        <div class="position-absolute top-120">
+            <img src="./assets/image/png/popular-elip.png" alt="" class="bottom-20 position-absolute start-0">
+            <img src="./assets/image/png/hotal-star-2.png" alt="" class=" position-absolute end-0 bottom-0">
+        </div>
+
+    </section>
 
 
 
