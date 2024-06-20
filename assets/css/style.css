@@ -617,12 +617,14 @@
     backdrop-filter: blur(10px) !important;
     opacity: 20 !important;
 }
-.bg-img{
-    background-image: url(../image/png/3d-tree-landscape.png);
+
+.bg-img {
+    background-image: url(../image/png/layerimg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .pt-160 {
     padding-top: 160px;
 }
@@ -745,6 +747,15 @@ slick-track {
     background: #01010140;
     backdrop-filter: blur(10px);
 
+}
+
+.travel-text {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42.3px;
+    text-align: center;
+    color: var(--color-white);
 }
 
 
