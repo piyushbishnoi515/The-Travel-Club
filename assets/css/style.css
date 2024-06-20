@@ -561,12 +561,42 @@
     text-align: center;
     color: var(--color-white);
 }
-.bottom-20{
+
+.bottom-20 {
     bottom: 20px !important;
 }
+
 .top-120 {
     top: 120%;
 }
+
+.dollor {
+    font-family: "Sans Serif Collection", sans-serif;
+    font-size: var(--fs-24);
+    font-weight: 400;
+    line-height: 28.2px;
+    color: var(--color-white);
+}
+.dollor2{
+    font-family: "Sans Serif Collection", sans-serif;
+        font-size: var(--fs-24);
+        font-weight: 400;
+        line-height: 28.2px;
+        color: var(--color-white);
+        text-decoration: line-through !important;
+}
+.slider-parent{
+    background: #1219D233;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
 
 @media (min-width:992px) {
     .mt-22 {
