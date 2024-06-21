@@ -763,17 +763,24 @@ slick-track {
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
+    padding-top: 8px;
     color: var(--color-white);
 }
+
 .max-text1 {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
     color: #D2D1E1 !important;
+    padding-top: 8px;
 }
-.travel-card{
+
+.travel-card {
     background-color: #231A69;
+    max-width: 582px;
+    border-radius: 20.69px;
+    padding: 40px;
 }
 
 
