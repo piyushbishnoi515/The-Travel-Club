@@ -764,7 +764,7 @@ slick-track {
     font-weight: 600;
     line-height: 30px;
     padding-top: 8px;
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .max-text1 {
@@ -774,15 +774,83 @@ slick-track {
     line-height: 30px;
     color: #D2D1E1 !important;
     padding-top: 8px;
+
 }
 
 .travel-card {
-    background-color: #231A69;
-    max-width: 582px;
+    background: rgba(18, 25, 210, .1);
+    padding: 30px 50px 48px 50px;
     border-radius: 20.69px;
-    padding: 40px;
+
 }
 
+.-mt-9 {
+    margin-top: -9px !important;
+}
+
+.line-1 {
+    width: 64px;
+    height: 0px;
+    background: #696CDF !important;
+    display: flex;
+}
+
+.line-parent {
+    height: 64px;
+    width: 6px;
+    background: #696CDF;
+}
+
+.line-parent1 {
+    height: 64px;
+    width: 6px;
+    background: #5C368A;
+}
+
+.line-parent2 {
+    height: 64px !important;
+    width: 6px !important;
+    background: #E66E9A;
+}
+.line-parent4{
+    height: 64px !important;
+        width: 6px !important;
+        background: #D1B35E;
+}
+.line-parent5 {
+    height: 64px !important;
+    width: 6px !important;
+    background:#98DAB3;
+}
+
+.frams {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 400;
+    line-height: 24px;
+    color: #D0CFDE;
+    max-width: 136px;
+
+}
+.mt-35{
+    margin-top: 35px;
+}
+.ml-92{
+    margin-left: 92px;
+}
+
+.gap-110 {
+    gap: 110px;
+}
+
+.frams-2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    color: var(--color-white) !important;
+    max-width: 91px;
+}
 
 
 
