@@ -1043,6 +1043,9 @@ slick-track {
     transition: all linear 0.4s;
     
 }
+.appss{
+    width: fit-content;
+}
 
 .list-footer {
     font-family: "Poppins", sans-serif;
@@ -1058,6 +1061,7 @@ slick-track {
     font-weight: 400;
     line-height: 25.6px;
     color: #C8C8C8;
+    width: fit-content;
 }
 
 .acc-txt {
