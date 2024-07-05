@@ -6,6 +6,7 @@
     padding: 0%;
     list-style-type: none !important;
     text-decoration: none !important;
+    outline:2px solid red;
 }
 
 /* pre-loader////////// */
@@ -289,6 +290,7 @@
     font-weight: 500;
     line-height: 24px;
     color: var(--color-white);
+    text-wrap: nowrap;
 }
 
 .going {
@@ -1039,7 +1041,7 @@ slick-track {
 }
 .appss:hover{
     transform: rotate(360deg);
-    transition: all linear 0.3s;
+    transition: all linear 0.4s;
     
 }
 
@@ -1196,7 +1198,7 @@ slick-track {
 @media (max-width: 991.9px) {
     .mobile_view {
         position: fixed;
-        height: 100vh;
+        height: 108vh;
         width: 100%;
         top: 0;
         left: -100%;
@@ -1270,4 +1272,10 @@ slick-track {
     .flex-col {
         flex-direction: column;
     }
+}
+@media (min-width:992px) {
+.gap-110-lg{
+    gap: 110px;
+}
+    
 }
